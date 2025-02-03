@@ -3,8 +3,7 @@ import { View, Text } from 'react-native';
 import registerRootComponent from 'expo/src/launch/registerRootComponent';
 
 // Import the correct App file directly from the root
-import App from 'npx expo start --tunnel --clear
-./App'; 
+import App from './App';
 
 // Register the root component
 registerRootComponent(App);
